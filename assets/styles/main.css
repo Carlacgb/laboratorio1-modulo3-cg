@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #19456b;
+}
+a:hover {
+  color: #16c79a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header__logo--img {
+  width: 250px;
+  margin-left: 20px;
+}
+
+.header__nav {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+
+.header__nav--list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav--item {
+  padding: 0px 10px 0px 10px;
+}
+
+.header__nav--link {
+  color: #19456b;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: #19456b;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main {
+  background-color: white;
+}
+
+.main__bienvenida {
+  background-color: white;
+  margin: 0 auto; /*para centrar div*/
+}
+
+.main__bienvenida--caja {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+@media (max-width: 600px) {
+  .main__bienvenida--caja {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1170px) {
+  .main__bienvenida--caja {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.main__bienvenida--titulo {
+  color: #19456b;
+  text-align: center;
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .main__bienvenida--titulo {
+    font-size: 30px;
+  }
+}
+.main__bienvenida--texto {
+  color: #212426;
+  text-align: center;
+}
+
+.main__servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (max-width: 750px) {
+  .main__servicios {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.main__servicios--contenedor {
+  margin: 0px 10px 30px 10px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.main__servicios--contIcono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__servicios--icono {
+  width: 100px;
+}
+
+.servicios__CajaTexto {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.servicios__CajaTexto--titulo {
+  color: #19456b;
+}
+
+.main__testimonios {
+  background-color: #16c79a;
+  padding: 80px 250px 100px 250px;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .main__testimonios {
+    background-color: #16c79a;
+    padding: 80px 10px 100px 10px;
+    text-align: center;
+  }
+}
+.main__testimonios--titulo {
+  color: white;
+  font-size: 40px;
+}
+
+.main__testimonio--parrafo {
+  color: white;
+}
+
+.main__contenedorEquipo {
+  margin: 0 auto;
+}
+
+.main__contenedorEquipo--caja {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+@media (max-width: 600px) {
+  .main__contenedorEquipo--caja {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1170px) {
+  .main__contenedorEquipo--caja {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.main__contenedorEquito--titulo {
+  text-align: center;
+  color: #19456b;
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .main__contenedorEquito--titulo {
+    font-size: 30px;
+  }
+}
+.main__contenedorEquito--txt {
+  text-align: center;
+}
+
+.main__contenedorMedicos {
+  background-color: white;
+}
+
+.main__contenedorMedicos--contenedor {
+  margin: 40px 10px 80px 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 950px) {
+  .main__contenedorMedicos--contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main__contenedorMedicos--caja {
+  background-color: #d9e0e6;
+  width: 300px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.main__contenedorMedicos--img {
+  width: 180px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.main__contenedorMedicos--subtitulo {
+  color: #19456b;
+  text-align: center;
+}
+
+.main__contenedorMedicos--titulo {
+  color: #19456b;
+  text-align: center;
+}
+
+.main__contenedorMedicos--txt {
+  line-height: 1.4;
+  padding: 10px;
+  text-align: center;
+}
+
+.main__conteneros--cajaImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #19456b;
+  width: 100%;
+}
+
+.footer .footer__contenedor1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  padding: 60px 0px 60px 0px;
+}
+
+@media (max-width: 750px) {
+  .footer .footer__contenedor1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer__contenedor--caja {
+  padding: 0px 50px 0px 50px;
+}
+
+@media (max-width: 750px) {
+  .footer__contenedor--caja {
+    margin-bottom: 60px;
+  }
+}
+.footer__contenedor--caja figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contenedor--caja figure img {
+  width: 250px;
+}
+
+.footer__enlaces--titulo {
+  color: whitesmoke;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.footer__enlaces--list {
+  list-style-type: none;
+}
+
+.footer__enlaces--link {
+  color: white;
+}
+
+.footer__redes--titulos {
+  color: whitesmoke;
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer__contenedor--caja .footer__redes {
+  background-color: aqua;
+}
+
+.footer__redes--item {
+  height: 20px;
+  /*background-color: red;*/
+  padding: 10px;
+}
+
+.footer__redes--img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__contenedor2 {
+  background-color: whitesmoke;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.footer__contenedor2 small {
+  color: #19456b;
+}/*# sourceMappingURL=main.css.map */

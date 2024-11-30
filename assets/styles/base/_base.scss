@@ -1,0 +1,45 @@
+// Reset de estilos básicos
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+// Variables globales
+$primary-color: #19456b;
+$secondary-color: #16c79a;
+$font-stack: 'Roboto', sans-serif;
+
+// Tipografía base
+body {
+    font-family: $font-stack;
+    font-size: 16px;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+// Elementos básicos
+a {
+    text-decoration: none;
+    color: $primary-color;
+  
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  p {
+    font-family: $font-stack;
+    color: #333;
+  }
+
+  main {
+    margin-top: 100px;
+  }

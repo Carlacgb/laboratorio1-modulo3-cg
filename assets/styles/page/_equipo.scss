@@ -1,0 +1,103 @@
+.main__contenedorEquipo{
+    margin: 0 auto;
+}
+
+.main__contenedorEquipo--caja{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+    @media (max-width: 600px){
+        .main__contenedorEquipo--caja{
+            padding-top: 60px;
+            padding-bottom: 40px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+    @media (max-width: 1170px){
+        .main__contenedorEquipo--caja{
+            padding-top: 60px;
+            padding-bottom: 40px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+.main__contenedorEquito--titulo{
+    text-align: center;
+    color: $primary-color;
+    font-size: 40px;
+}
+
+@media (max-width: 600px){
+    .main__contenedorEquito--titulo{
+        font-size: 30px;
+    }
+}
+
+.main__contenedorEquito--txt{
+    text-align: center;
+}
+
+.main__contenedorMedicos{
+    background-color: white;
+}
+
+.main__contenedorMedicos--contenedor{
+    margin: 40px 10px 80px 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    @media (max-width:950px){
+        .main__contenedorMedicos--contenedor{
+          display: flex;
+          flex-direction: column;
+          justify-content: center; 
+          align-items: center; 
+        } 
+    }
+
+.main__contenedorMedicos--caja{
+    background-color: #d9e0e6;
+    width: 300px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.main__contenedorMedicos--img{
+    width: 180px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.main__contenedorMedicos--subtitulo{
+    color: $primary-color;
+    text-align: center;
+}
+
+.main__contenedorMedicos--titulo{
+    color: $primary-color;
+    text-align: center;
+}
+
+.main__contenedorMedicos--txt{
+    line-height: 1.4;
+    padding: 10px;
+    text-align: center;
+}
+
+.main__conteneros--cajaImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+}
+

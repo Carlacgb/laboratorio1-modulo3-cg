@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.header__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header__logo--img {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.header__nav {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+.header__nav--list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav--item {
+    padding: 0px 10px 0px 10px;
+}
+
+.header__nav--link {
+    color: $primary-color;
+}
+
+
+

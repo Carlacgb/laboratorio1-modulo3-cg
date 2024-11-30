@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html"><img src="assets/images/logo-clinica.svg"
+                    alt="Logo Clínica del Barrio Lorem Ipsum" class="header__logo--img"></a>
+
+            <nav class="header__nav">
+                <ul class="header__nav--list">
+                    <li class="header__nav--item"><a href="equipo-medico.html" class="header__nav--link">Equipo médico</a></li>
+                    <li class="header__nav--item"><a href="contacto.html" class="header__nav--link">Contacto</a></li>
+                    <li class="header__nav--item"><button class="header__nav--btn">Reservar cita</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    
+            <form>
+                <h2>Contacto</h2>
+                <div>
+    
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre" tabindex="1">
+    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" tabindex="2">
+    
+                    <label for="topic">Asunto</label>
+                    <input type="tel" name="topic" id="topic" placeholder="Asunto" tabindex="3">
+    
+                    <label form="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje" tabindex="4"></textarea>
+    
+                    <div>
+                        <a href="#">Política de privacidad</a>
+                        <a href="#">Términos y condiciones</a>
+                    </div>
+    
+                    <input type="submit" value="Enviar" tabindex="5">
+    
+                </div>
+            </form>
+
+        <section>
+            <h2>Mapa de ubicación</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.2287820435236!2d-70.64847082363256!3d-33.46939389848373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c54586b0b93d%3A0xffec597103669cef!2sCentro%20Comunitario%20Matta%20Sur!5e0!3m2!1ses!2scl!4v1729653184055!5m2!1ses!2scl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedor1">
+            <div class="footer__contenedor--caja">
+                <figure>
+                    <a href="#">
+                        <img src="assets/images/logo-blanco.svg" alt="logo de Clínica Barrio Sano">
+                    </a>
+                </figure>
+            </div>
+            <div class="footer__contenedor--caja">
+                <h3 class="footer__enlaces--titulo">ENLACES</h3>
+                <ul class="footer__enlaces--list">
+                    <li><a href="index.html" class="footer__enlaces--link">Inicio</a></li>
+                    <li><a href="equipo-medico.html" class="footer__enlaces--link">Equipo médico</a></li>
+                    <li><a href="contacto.html" class="footer__enlaces--link">Contacto</a></li>
+                    <li><a href="#" class="footer__enlaces--link">Reservar cita</a></li>
+            </div>
+            <div class="footer__contenedor--caja">
+                <h3 class="footer__redes--titulos">SÍGUENOS</h3>
+                <div class="footer__redes>">
+                    <a href="#" class="footer__redes--item"><img src="assets/images/facebook.svg" class="footer__redes--img"></a>
+                    <a href="#" class="footer__redes--item"><img src="assets/images/instagram.svg" class="footer__redes--img"></a>
+                    <a href="#" class="footer__redes--item"><img src="assets/images/linkedin.svg" class="footer__redes--img"></a>
+                    <a href="#" class="footer__redes--item"><img src="assets/images/x.svg" class="footer__redes--img"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__contenedor2">
+            <small> &copy; 2024 <b>Clínica Barrio Sano</b> - Todos los Derechos Reservados.</small>
+        </div>        
+    </footer>
+
+</body>
+
+</html>

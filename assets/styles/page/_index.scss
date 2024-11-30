@@ -1,0 +1,122 @@
+.main{
+    background-color: white;
+}
+
+.main__bienvenida{
+    background-color: white;
+    margin: 0 auto; /*para centrar div*/
+
+}
+
+.main__bienvenida--caja{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+@media (max-width: 600px){
+    .main__bienvenida--caja{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1170px){
+    .main__bienvenida--caja{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+.main__bienvenida--titulo{
+    color: $primary-color;
+    text-align: center;
+    font-size: 40px;
+}
+
+@media (max-width: 600px){
+    .main__bienvenida--titulo{
+        font-size: 30px;
+    }
+}
+
+.main__bienvenida--texto{
+    color: #212426;
+    text-align: center;
+}
+
+.main__servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media (max-width: 750px){
+    .main__servicios{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.main__servicios--contenedor{
+    margin: 0px 10px 30px 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.main__servicios--contIcono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__servicios--icono{
+    width: 100px;
+}
+
+.servicios__CajaTexto{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.servicios__CajaTexto--titulo{
+    color: $primary-color;
+}
+
+.main__testimonios{
+    background-color: $secondary-color;
+    padding: 80px 250px 100px 250px;
+    text-align: center;
+}
+
+@media (max-width: 750px){
+    .main__testimonios{
+        background-color: $secondary-color;
+        padding: 80px 10px 100px 10px;
+        text-align: center;   
+    } 
+}
+
+.main__testimonios--titulo{
+    color: white;
+    font-size: 40px;
+}
+
+.main__testimonio--parrafo{
+    color: white;
+}

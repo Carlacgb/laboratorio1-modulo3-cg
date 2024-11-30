@@ -1,0 +1,92 @@
+.footer {
+    background-color: $primary-color;
+    width: 100%;
+}
+
+.footer .footer__contenedor1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    padding: 60px 0px 60px 0px;
+}
+
+@media (max-width: 750px){
+    .footer .footer__contenedor1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer__contenedor--caja{
+    padding: 0px 50px 0px 50px;
+}
+
+    @media (max-width: 750px){
+        .footer__contenedor--caja{
+            margin-bottom: 60px;
+        }
+    }
+
+.footer__contenedor--caja figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__contenedor--caja figure img{
+    width: 250px;
+}
+
+.footer__enlaces--titulo{
+    color: whitesmoke;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer__enlaces--list{
+    list-style-type: none;
+}
+
+.footer__enlaces--link{
+    color: white;
+}
+
+.footer__redes--titulos{
+    color: whitesmoke;
+    margin-bottom: 25px;
+    font-size: 20px; 
+    text-align: center; 
+}
+
+.footer__contenedor--caja .footer__redes{
+    background-color: aqua;
+}
+
+.footer__redes--item{
+    height: 20px;
+    /*background-color: red;*/
+    padding: 10px;
+}
+
+.footer__redes--img{
+   width: 20px;
+   height: 20px;
+}
+
+.footer__contenedor2{
+    background-color: whitesmoke;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.footer__contenedor2 small{
+    color: $primary-color;
+}
+
+
+
+
