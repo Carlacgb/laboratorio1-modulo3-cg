@@ -24,7 +24,7 @@ Abrir el archivo index.html
 
 ### Implementación de objeto JSON: 
 
-- Abrir el archivo contacto.html para ejecutar la pauta 1.
+- Abrir el archivo objetos.html para ejecutar la pauta 1.
 - Se crea el un objeto JSON dentro de la carpeta assets/js/script.js. El archivo contiene información como nombre, especialidad, años de experiencia y disponibilidad. 
 - Además, se incluye objetos anidados para organizar información adicional de cada doctor, como horarios disponibles y contacto. 
 - Y por último se accede a la información utilizando destructuring para mostrar la información en la consola.
