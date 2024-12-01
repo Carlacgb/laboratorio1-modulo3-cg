@@ -20,10 +20,15 @@ Abrir el archivo index.html
 - reservar-cita.html
 - README
 
-## DESCRIPCIÓN BREVE DEL EJERCICIO
+## DESCRIPCIÓN BREVE DEL EJERCICIO Y COMO ACTIVAR LAS TAREAS EN EL PROYECTO
 
 ### Implementación de objeto JSON: 
-Se crea el archivo JSON, dentro de la carpeta assets/data/lista-doctores.JSON. El archivo contiene información como nombre, especialidad, años de experiencia y disponibilidad.
+
+- Abrir el archivo contacto.html para ejecutar la pauta 1.
+- Se crea el un objeto JSON dentro de la carpeta assets/js/script.js. El archivo contiene información como nombre, especialidad, años de experiencia y disponibilidad. 
+- Además, se incluye objetos anidados para organizar información adicional de cada doctor, como horarios disponibles y contacto. 
+- Y por último se accede a la información utilizando destructuring para mostrar la información en la consola.
+- Para mostrar los datos en la interfaz, se implementa primero el DOMContentLoaded y luego se aplica el llamado a la información del objeto JSON para llamar al tercer doctor/a.
 
 
 ## CRÉDITOS:
